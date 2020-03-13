@@ -21,7 +21,6 @@ Sub Calculate_stocks()
     start_price = Cells(2, 3)
     daily_price = Cells(2, 3)
     Cells(ticker_index, 10) = ticker
-    Cells(ticker_index, 3) = start_price
     
     'Initialize record holders
     biggest_winner_percent = 0
